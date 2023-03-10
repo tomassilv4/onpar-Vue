@@ -136,59 +136,67 @@ const Archive = (props) => {
         </section>
       </div>
       <div className="archive-ecra-pequeno">
-        <Link to="/caramulo">
-          <div className="archive-caramulo1">
+        <div className="archive-container3">
+          <Link to="/caramulo" className="archive-navlink11">
+            <div className="archive-caramulo1">
+              <img
+                alt="image"
+                src="/playground_assets/main%20foto%20caramulho-1500w.png"
+                className="archive-caramulo-background1"
+              />
+              <img
+                alt="image"
+                src="/playground_assets/cm_logo2022-800w.png"
+                className="archive-caramulo-clicker1"
+              />
+            </div>
+          </Link>
+        </div>
+        <div className="archive-container4">
+          <Link to="/rally-spirit" className="archive-navlink12">
+            <div className="archive-rally-spirit1">
+              <img
+                alt="image"
+                src="/playground_assets/cnv000029-1500w.png"
+                className="archive-rally-spirit-background1"
+              />
+              <img
+                alt="image"
+                src="/playground_assets/rallyspirit-800w.png"
+                className="archive-rally-spirit-clicker1"
+              />
+            </div>
+          </Link>
+        </div>
+        <div className="archive-container5">
+          <Link to="/assorted" className="archive-navlink13">
+            <div className="archive-assorted1">
+              <img
+                alt="image"
+                src="/playground_assets/main%20foto%20assorted-1500w.jpg"
+                className="archive-assorted-background1"
+              />
+              <img
+                alt="image"
+                src="/playground_assets/assorted-800w.png"
+                className="archive-assorted-clicker1"
+              />
+            </div>
+          </Link>
+        </div>
+        <div className="archive-container6">
+          <div className="archive-unnamed1">
             <img
               alt="image"
-              src="/playground_assets/main%20foto%20caramulho-1500w.png"
-              className="archive-caramulo-background1"
+              src="/playground_assets/404-1500w.png"
+              className="archive-unnamed-background1"
             />
             <img
               alt="image"
-              src="/playground_assets/cm_logo2022-800w.png"
-              className="archive-caramulo-clicker1"
+              src="/playground_assets/404-1500w.png"
+              className="archive-unnamed-clicker1"
             />
           </div>
-        </Link>
-        <Link to="/rally-spirit">
-          <div className="archive-rally-spirit1">
-            <img
-              alt="image"
-              src="/playground_assets/cnv000029-1500w.png"
-              className="archive-rally-spirit-background1"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/rallyspirit-800w.png"
-              className="archive-rally-spirit-clicker1"
-            />
-          </div>
-        </Link>
-        <Link to="/assorted">
-          <div className="archive-assorted1">
-            <img
-              alt="image"
-              src="/playground_assets/main%20foto%20assorted-1500w.jpg"
-              className="archive-assorted-background1"
-            />
-            <img
-              alt="image"
-              src="/playground_assets/assorted-800w.png"
-              className="archive-assorted-clicker1"
-            />
-          </div>
-        </Link>
-        <div className="archive-unnamed1">
-          <img
-            alt="image"
-            src="/playground_assets/404-1500w.png"
-            className="archive-unnamed-background1"
-          />
-          <img
-            alt="image"
-            src="/playground_assets/404-1500w.png"
-            className="archive-unnamed-clicker1"
-          />
         </div>
       </div>
     </div>

@@ -1021,6 +1021,9 @@
   .home-caramulo-background2 {
     height: 100%;
   }
+  .home-ecra-pequeno {
+    display: none;
+  }
   .home-archive-row12 {
     align-items: stretch;
     justify-content: space-between;
