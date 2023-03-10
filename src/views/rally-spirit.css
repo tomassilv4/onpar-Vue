@@ -1,0 +1,249 @@
+.rally-spirit-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  border-color: #232323;
+  border-width: 1px;
+  flex-direction: column;
+  background-color: #232323;
+}
+.rally-spirit-navbar {
+  color: #ffffff;
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-items: center;
+  border-color: #1e1e1e;
+  border-width: 1px;
+  justify-content: space-between;
+  background-color: #1e1e1e;
+}
+.rally-spirit-navlink {
+  display: contents;
+}
+.rally-spirit-image {
+  top: 0px;
+  flex: 1;
+  left: 0px;
+  right: 0px;
+  width: auto;
+  bottom: 0px;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+  object-fit: cover;
+  text-decoration: none;
+}
+.rally-spirit-desktop-menu {
+  display: flex;
+  position: relative;
+  background-color: #1e1e1e;
+}
+.rally-spirit-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+  justify-content: flex-start;
+}
+.rally-spirit-navlink1 {
+  text-decoration: none;
+}
+.rally-spirit-navlink2 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.rally-spirit-navlink3 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.rally-spirit-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.rally-spirit-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.rally-spirit-mobile-menu {
+  top: 0px;
+  flex: 1;
+  left: 0px;
+  width: auto;
+  height: auto;
+  display: none;
+  padding: 0px;
+  position: fixed;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.rally-spirit-nav1 {
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.rally-spirit-container1 {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.rally-spirit-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rally-spirit-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.rally-spirit-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rally-spirit-navlink4 {
+  text-decoration: none;
+}
+.rally-spirit-navlink5 {
+  text-decoration: none;
+}
+.rally-spirit-navlink6 {
+  text-decoration: none;
+}
+.rally-spirit-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+@media(max-width: 1200px) {
+  .rally-spirit-navlink2 {
+    text-decoration: none;
+  }
+  .rally-spirit-navlink3 {
+    text-decoration: none;
+  }
+  .rally-spirit-mobile-menu {
+    width: auto;
+    height: auto;
+  }
+}
+@media(max-width: 991px) {
+  .rally-spirit-image {
+    height: 100%;
+  }
+  .rally-spirit-mobile-menu {
+    background-color: transparent;
+  }
+}
+@media(max-width: 767px) {
+  .rally-spirit-navbar {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .rally-spirit-desktop-menu {
+    display: none;
+  }
+  .rally-spirit-navlink2 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .rally-spirit-navlink3 {
+    margin-left: var(--dl-space-space-unit);
+  }
+  .rally-spirit-burger-menu {
+    display: flex;
+  }
+  .rally-spirit-icon {
+    fill: #ffffff;
+  }
+  .rally-spirit-mobile-menu {
+    width: 100%;
+    height: auto;
+    padding: var(--dl-space-space-halfunit);
+    background-color: transparent;
+  }
+  .rally-spirit-nav1 {
+    width: 100%;
+    align-self: flex-start;
+  }
+  .rally-spirit-container1 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #1e1e1e;
+  }
+  .rally-spirit-menu-close {
+    flex: 1;
+    width: auto;
+    height: auto;
+  }
+  .rally-spirit-icon2 {
+    fill: #ffffff;
+    width: 18px;
+    height: 19px;
+    padding-bottom: 1px;
+  }
+  .rally-spirit-navlink4 {
+    padding-left: 10px;
+    padding-bottom: 1px;
+  }
+  .rally-spirit-navlink5 {
+    padding-left: 10px;
+    padding-bottom: 1px;
+  }
+  .rally-spirit-navlink6 {
+    padding-left: 10px;
+    padding-bottom: 1px;
+  }
+}
+@media(max-width: 479px) {
+  .rally-spirit-navbar {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .rally-spirit-mobile-menu {
+    padding: var(--dl-space-space-halfunit);
+  }
+  .rally-spirit-nav1 {
+    width: 100%;
+    align-self: flex-start;
+  }
+  .rally-spirit-menu-close {
+    flex: 1;
+    width: auto;
+    height: auto;
+  }
+  .rally-spirit-icon2 {
+    width: 18px;
+    height: 19px;
+    padding-bottom: 1px;
+  }
+  .rally-spirit-container2 {
+    align-self: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rally-spirit-navlink4 {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  .rally-spirit-navlink5 {
+    font-size: 12px;
+    padding-top: 0px;
+    padding-left: 10px;
+  }
+  .rally-spirit-navlink6 {
+    font-size: 12px;
+    padding-top: 0px;
+    padding-left: 10px;
+  }
+}
